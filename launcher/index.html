@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcade Dock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/launcher/styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="scan" aria-hidden="true"></div>
+
+    <header class="top">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">Arcade Dock</span>
+      </a>
+      <p class="top-meta">
+        <span id="game-count">11</span> local games · one hub
+      </p>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1 class="hero-brand">Arcade Dock</h1>
+        <p class="hero-lede">
+          Pick a title. Play instantly in the browser — all run local from this
+          machine.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#library">Open library</a>
+          <button type="button" class="btn btn-ghost" id="btn-random">
+            Surprise me
+          </button>
+        </div>
+      </section>
+
+      <section class="library" id="library">
+        <div class="library-head">
+          <h2>Library</h2>
+          <div class="filters" role="tablist" aria-label="Filter by genre">
+            <button type="button" class="chip is-active" data-genre="all">
+              All
+            </button>
+            <button type="button" class="chip" data-genre="Arcade">Arcade</button>
+            <button type="button" class="chip" data-genre="Puzzle">Puzzle</button>
+            <button type="button" class="chip" data-genre="Racing">Racing</button>
+            <button type="button" class="chip" data-genre="Fighting">Fighting</button>
+            <button type="button" class="chip" data-genre="Shooter">Shooter</button>
+            <button type="button" class="chip" data-genre="Typing">Typing</button>
+          </div>
+        </div>
+        <div class="grid" id="game-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <p>
+        Run <code>npm run setup</code> once if a game shows “needs setup”, then
+        <code>npm start</code>.
+      </p>
+    </footer>
+
+    <div class="playframe" id="playframe" hidden>
+      <div class="playframe-bar">
+        <button type="button" class="btn-back" id="btn-close-play">
+          ← Library
+        </button>
+        <span class="playframe-title" id="play-title"></span>
+        <a class="btn-open" id="btn-new-tab" href="#" target="_blank" rel="noopener"
+          >New tab ↗</a
+        >
+      </div>
+      <iframe id="game-iframe" title="Game" allow="fullscreen; autoplay; gamepad"></iframe>
+    </div>
+
+    <script src="/launcher/app.js"></script>
+  </body>
+</html>

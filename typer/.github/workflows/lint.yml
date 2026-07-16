@@ -1,0 +1,16 @@
+on:
+  push:
+    paths:
+      - 'typer.js'
+jobs:
+  lint:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install semistandard
+        run: npm i -g semistandard
+      - name: Run semistandard
+        run: semistandard

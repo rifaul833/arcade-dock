@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>mk.js — Local Multiplayer</title>
+    <script src="src/movement.js"></script>
+    <script src="src/mk.js"></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #000;
+      }
+
+      .stage {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        background: #000;
+      }
+
+      .dock-note {
+        position: absolute;
+        z-index: 30;
+        top: 0.6rem;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: min(36rem, calc(100% - 2rem));
+        margin: 0;
+        padding: 0.45rem 0.85rem;
+        font-family: system-ui, sans-serif;
+        font-size: clamp(0.75rem, 1.4vw, 0.9rem);
+        text-align: center;
+        background: rgba(20, 20, 20, 0.75);
+        color: #ddd;
+        border-left: 3px solid #e85d04;
+        pointer-events: none;
+        opacity: 0.85;
+      }
+
+      #parent {
+        position: relative;
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        min-height: 0;
+        border-radius: 0;
+        overflow: hidden;
+      }
+
+      #arena {
+        width: 100%;
+        height: 100%;
+      }
+
+      #arena canvas {
+        display: block;
+        width: 100% !important;
+        height: 100% !important;
+        border: 0;
+        border-radius: 0;
+        image-rendering: auto;
+      }
+
+      #utils {
+        pointer-events: none;
+      }
+
+      .lifebar {
+        width: min(28vw, 320px);
+        height: clamp(12px, 2vh, 18px);
+      }
+
+      .playerName {
+        font-size: clamp(0.9rem, 2vw, 1.25rem);
+      }
+
+      #player1LifeBar,
+      #player1Name {
+        left: clamp(12px, 2vw, 28px);
+      }
+
+      #player2LifeBar,
+      #player2Name {
+        right: clamp(12px, 2vw, 28px);
+      }
+
+      #player1Name,
+      #player2Name {
+        top: clamp(8px, 1.5vh, 16px);
+      }
+
+      #player1LifeBar,
+      #player2LifeBar {
+        top: clamp(28px, 4.5vh, 42px);
+      }
+
+      .loadingLabel {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .keys-hint {
+        position: absolute;
+        z-index: 25;
+        bottom: 0.75rem;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: system-ui, sans-serif;
+        font-size: clamp(0.7rem, 1.2vw, 0.85rem);
+        color: rgba(255, 255, 255, 0.7);
+        background: rgba(0, 0, 0, 0.5);
+        padding: 0.35rem 0.75rem;
+        pointer-events: none;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="stage">
+      <p class="dock-note">
+        Local 2-player · Space = restart
+      </p>
+      <div id="parent">
+        <div id="utils">
+          <div id="player1Name" class="playerName">Sub-Zero</div>
+          <div id="player1LifeBar" class="lifebar">
+            <div class="life" id="player1Life"></div>
+          </div>
+          <div id="player2Name" class="playerName">Kano</div>
+          <div id="player2LifeBar" class="lifebar">
+            <div class="life" id="player2Life"></div>
+          </div>
+        </div>
+        <div id="arena"></div>
+        <div id="loading">
+          <span class="loadingLabel">Loading...</span>
+        </div>
+      </div>
+      <p class="keys-hint">
+        P1: G/J move · Y jump · H duck · A/S punch · D/F kick · Shift block
+        &nbsp;|&nbsp;
+        P2: arrows · P / [ punch · ] / \ kick · Ctrl block
+      </p>
+    </div>
+    <script>
+      (function () {
+        function $(id) {
+          return document.getElementById(id);
+        }
+        function setLife(container, life) {
+          container.style.width = life + '%';
+        }
+        document.onkeydown = function (e) {
+          if (e.keyCode === 32) window.location.reload();
+        };
+        $('loading').style.visibility = 'hidden';
+        $('arena').style.visibility = 'visible';
+        $('utils').style.visibility = 'visible';
+
+        // Keep internal game at native 600×400; CSS stretches the canvas to fill the viewport.
+        mk.start({
+          arena: {
+            container: document.getElementById('arena'),
+            arena: mk.arenas.types.THRONE_ROOM,
+            width: 600,
+            height: 400,
+          },
+          fighters: [{ name: 'Subzero' }, { name: 'Kano' }],
+          callbacks: {
+            attack: function (f, o) {
+              if (o.getName() === 'kano') {
+                setLife($('player2Life'), o.getLife());
+              } else {
+                setLife($('player1Life'), o.getLife());
+              }
+            },
+          },
+          gameType: 'multiplayer',
+        }).ready(function () {});
+      })();
+    </script>
+  </body>
+</html>
