@@ -170,4 +170,19 @@ module.exports = [
     accent: '#38bdf8',
     setup: 'static',
   },
+  {
+    id: 'horik-viking',
+    name: 'Horik Viking',
+    category: 'adventure-platform',
+    folder: 'Horik_Viking',
+    serveRoot:
+      'Horik_Viking/previews.customer.envatousercontent.com/files/256191350',
+    entry: 'index.html',
+    image: '/launcher/thumbs/horik-viking.jpg',
+    tagline: 'Battle enemies and explore a Viking platform adventure.',
+    genre: 'Adventure',
+    controls: 'Keyboard / Touch',
+    accent: '#f59e0b',
+    setup: 'static',
+  },
 ];
