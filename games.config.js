@@ -155,4 +155,19 @@ module.exports = [
     accent: '#5eead4',
     setup: 'static',
   },
+  {
+    id: 'find-difference',
+    name: 'Find Seven Differences',
+    category: 'find-difference',
+    folder: 'find_difference',
+    serveRoot:
+      'find_difference/previews.customer.envatousercontent.com/files/262105350',
+    entry: 'index.html',
+    image: '/launcher/thumbs/find-difference.jpg',
+    tagline: 'Spot all seven differences between two scenes.',
+    genre: 'Find the Difference',
+    controls: 'Mouse / Touch',
+    accent: '#38bdf8',
+    setup: 'static',
+  },
 ];
