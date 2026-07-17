@@ -326,4 +326,18 @@ module.exports = [
     accent: '#22d3ee',
     setup: 'static',
   },
+  {
+    id: 'air-strike',
+    name: 'Air Strike',
+    category: 'action-shooter',
+    folder: 'air-strike',
+    serveRoot: 'air-strike/game',
+    entry: 'index.html',
+    image: '/launcher/thumbs/air-strike.jpg',
+    tagline: 'Pilot a chopper, fire missiles, and complete every air mission.',
+    genre: 'Shooter',
+    controls: 'Keyboard / Touch',
+    accent: '#38bdf8',
+    setup: 'static',
+  },
 ];
