@@ -134,7 +134,9 @@ module.exports = [
     id: 'dino-adventure',
     name: 'Dino Adventure',
     folder: 'Dino Adventure',
-    entry: 'previews.customer.envatousercontent.com/files/366391597/index.html',
+    serveRoot:
+      'Dino Adventure/previews.customer.envatousercontent.com/files/366391597',
+    entry: 'index.html',
     image: '/launcher/thumbs/dino-adventure.jpg',
     tagline: 'Little Dino Adventure (Construct 3)',
     genre: 'Adventure',
