@@ -241,4 +241,19 @@ module.exports = [
     accent: '#f97316',
     setup: 'static',
   },
+  {
+    id: 'space-eaters',
+    name: 'Space Eaters',
+    category: 'arcade',
+    folder: 'SpaceEaters',
+    serveRoot:
+      'SpaceEaters/previews.customer.envatousercontent.com/files/505625246',
+    entry: 'index.html',
+    image: '/launcher/thumbs/space-eaters.jpg',
+    tagline: 'Casual space arcade — eat, dodge, and chase a high score.',
+    genre: 'Arcade',
+    controls: 'Touch / Keyboard',
+    accent: '#a78bfa',
+    setup: 'static',
+  },
 ];
