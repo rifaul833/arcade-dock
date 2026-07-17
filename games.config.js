@@ -382,4 +382,19 @@ module.exports = [
     accent: '#f87171',
     setup: 'static',
   },
+  {
+    id: 'skateboard',
+    name: 'Skateboard Challenge',
+    category: 'endless-runner-flying',
+    folder: 'skateboard',
+    serveRoot:
+      'skateboard/previews.customer.envatousercontent.com/files/404157209',
+    entry: 'index.html',
+    image: '/launcher/thumbs/skateboard.jpg',
+    tagline: 'Ollie, grind, and collect coins in an endless skate run.',
+    genre: 'Runner',
+    controls: 'Keyboard / Touch',
+    accent: '#94a3b8',
+    setup: 'static',
+  },
 ];
