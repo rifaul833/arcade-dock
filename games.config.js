@@ -130,4 +130,16 @@ module.exports = [
     accent: '#2ec4b6',
     setup: 'static',
   },
+  {
+    id: 'dino-adventure',
+    name: 'Dino Adventure',
+    folder: 'Dino Adventure',
+    entry: 'previews.customer.envatousercontent.com/files/366391597/index.html',
+    image: '/launcher/thumbs/dino-adventure.jpg',
+    tagline: 'Little Dino Adventure (Construct 3)',
+    genre: 'Adventure',
+    controls: 'Touch / Keyboard',
+    accent: '#5eead4',
+    setup: 'static',
+  },
 ];
