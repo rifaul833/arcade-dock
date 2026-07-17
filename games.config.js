@@ -298,4 +298,19 @@ module.exports = [
     accent: '#fb923c',
     setup: 'static',
   },
+  {
+    id: 'jojo-run',
+    name: 'JoJo Run',
+    category: 'endless-runner-flying',
+    folder: 'jo jo run',
+    serveRoot:
+      'jo jo run/previews.customer.envatousercontent.com/files/293781175',
+    entry: 'index.html',
+    image: '/launcher/thumbs/jojo-run.jpg',
+    tagline: 'Run, jump, and collect coins in a colorful endless chase.',
+    genre: 'Runner',
+    controls: 'Keyboard / Touch',
+    accent: '#f472b6',
+    setup: 'static',
+  },
 ];

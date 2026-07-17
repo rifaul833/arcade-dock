@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /
+Allow: /sitemaps/
+Allow: /files/
+Allow: /attachments/
+Allow: /h264-video-previews/
+Allow: /*/watermarked_preview/watermarked_preview.mp4
