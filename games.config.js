@@ -368,4 +368,18 @@ module.exports = [
     accent: '#f9a8d4',
     setup: 'static',
   },
+  {
+    id: 'defence-battle',
+    name: 'Defense Battle',
+    category: 'action-shooter',
+    folder: 'defence-battle',
+    serveRoot: 'defence-battle/game',
+    entry: 'index.html',
+    image: '/launcher/thumbs/defence-battle.jpg',
+    tagline: 'Defend your base — blast waves of enemies before they break through.',
+    genre: 'Shooter',
+    controls: 'Keyboard / Touch',
+    accent: '#f87171',
+    setup: 'static',
+  },
 ];
