@@ -354,4 +354,18 @@ module.exports = [
     accent: '#facc15',
     setup: 'static',
   },
+  {
+    id: 'sweet-memory-game',
+    name: 'Sweet Memory Game',
+    category: 'memory',
+    folder: 'sweet-memory-game',
+    serveRoot: 'sweet-memory-game/game',
+    entry: 'index.html',
+    image: '/launcher/thumbs/sweet-memory-game.jpg',
+    tagline: 'Flip the cards, match the pairs, and train your memory.',
+    genre: 'Memory',
+    controls: 'Touch / Mouse',
+    accent: '#f9a8d4',
+    setup: 'static',
+  },
 ];
