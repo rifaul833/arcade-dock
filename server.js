@@ -9,10 +9,16 @@ const ROOT = __dirname;
 const PORT = Number(process.env.PORT) || 3456;
 const HOST = process.env.HOST || '127.0.0.1';
 const CONFIG_PATH = path.join(ROOT, 'games.config.js');
+const CATEGORIES_PATH = path.join(ROOT, 'categories.config.js');
 
 function loadGames() {
   delete require.cache[require.resolve(CONFIG_PATH)];
   return require(CONFIG_PATH);
+}
+
+function loadCategories() {
+  delete require.cache[require.resolve(CATEGORIES_PATH)];
+  return require(CATEGORIES_PATH);
 }
 
 const games = loadGames();
@@ -37,10 +43,11 @@ function isReady(game) {
   return fs.existsSync(path.join(ROOT, rootRel, game.entry));
 }
 
-app.get('/api/games', (_req, res) => {
-  const catalog = loadGames().map((g) => ({
+function publicGames() {
+  return loadGames().map((g) => ({
     id: g.id,
     name: g.name,
+    category: g.category,
     tagline: g.tagline,
     genre: g.genre,
     controls: g.controls,
@@ -49,7 +56,23 @@ app.get('/api/games', (_req, res) => {
     playUrl: playUrlFor(g),
     ready: isReady(g),
   }));
-  res.json({ games: catalog, port: PORT });
+}
+
+app.get('/api/games', (_req, res) => {
+  res.json({ games: publicGames(), port: PORT });
+});
+
+app.get('/api/catalog', (_req, res) => {
+  const categories = loadCategories();
+  const catalogGames = publicGames();
+  const totalGames = categories.reduce((sum, category) => sum + category.count, 0);
+  res.json({
+    categories,
+    games: catalogGames,
+    totalGames,
+    playableGames: catalogGames.filter((game) => game.ready).length,
+    port: PORT,
+  });
 });
 
 function missingGameHtml(game) {

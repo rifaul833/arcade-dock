@@ -202,6 +202,34 @@ main,
   letter-spacing: 0.04em;
 }
 
+.library-title-group {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.library-subtitle {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.category-back {
+  appearance: none;
+  justify-self: start;
+  margin-bottom: 0.35rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--cyan);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.category-back:hover {
+  color: var(--lime);
+}
+
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -286,6 +314,10 @@ main,
   transform: scale(1.05);
 }
 
+.card:hover .category-icon {
+  transform: scale(1.08) rotate(-3deg);
+}
+
 .card:focus-visible {
   outline: 2px solid var(--cyan);
   outline-offset: 2px;
@@ -323,6 +355,76 @@ main,
 
 .card-media.is-fallback img {
   opacity: 0;
+}
+
+.category-art,
+.placeholder-art {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 72% 28%, color-mix(in srgb, var(--accent) 42%, transparent), transparent 30%),
+    linear-gradient(145deg, color-mix(in srgb, var(--accent) 28%, #111720), #080b10 72%);
+}
+
+.category-art::before,
+.placeholder-art::before {
+  content: "";
+  position: absolute;
+  width: 75%;
+  aspect-ratio: 1;
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 24px color-mix(in srgb, var(--accent) 7%, transparent),
+    0 0 0 52px color-mix(in srgb, var(--accent) 4%, transparent);
+}
+
+.category-icon {
+  position: relative;
+  z-index: 2;
+  font-size: clamp(3rem, 6vw, 4.8rem);
+  filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.45));
+  transition: transform 0.35s ease;
+}
+
+.category-grid-lines {
+  position: absolute;
+  inset: 0;
+  opacity: 0.16;
+  background-image:
+    linear-gradient(var(--accent) 1px, transparent 1px),
+    linear-gradient(90deg, var(--accent) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: linear-gradient(to top, #000, transparent 75%);
+}
+
+.placeholder-media {
+  filter: saturate(0.55);
+}
+
+.placeholder-art {
+  align-content: center;
+  gap: 0.5rem;
+}
+
+.placeholder-art > span {
+  position: relative;
+  z-index: 2;
+  font-size: 2.8rem;
+  opacity: 0.62;
+}
+
+.placeholder-art > small {
+  position: relative;
+  z-index: 2;
+  color: color-mix(in srgb, var(--accent) 75%, white);
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
 }
 
 .card-media .card-genre {
@@ -387,6 +489,19 @@ main,
 
 .badge-warn {
   color: var(--coral);
+}
+
+.badge-soon {
+  color: color-mix(in srgb, var(--accent) 70%, var(--muted));
+}
+
+.card.is-placeholder {
+  cursor: default;
+}
+
+.card.is-placeholder:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .foot {

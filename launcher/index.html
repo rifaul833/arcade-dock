@@ -22,7 +22,8 @@
         <span class="brand-text">Arcade Dock</span>
       </a>
       <p class="top-meta">
-        <span id="game-count">11</span> local games · one hub
+        <span id="category-count">19</span> categories ·
+        <span id="game-count">200</span> games
       </p>
     </header>
 
@@ -30,30 +31,27 @@
       <section class="hero">
         <h1 class="hero-brand">Arcade Dock</h1>
         <p class="hero-lede">
-          Pick a title. Play instantly in the browser — all run local from this
-          machine.
+          Browse 19 game categories and discover 200 titles. Available games
+          play instantly in your browser.
         </p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#library">Open library</a>
+          <a class="btn btn-primary" href="#library">Browse categories</a>
           <button type="button" class="btn btn-ghost" id="btn-random">
-            Surprise me
+            Play a random game
           </button>
         </div>
       </section>
 
       <section class="library" id="library">
         <div class="library-head">
-          <h2>Library</h2>
-          <div class="filters" role="tablist" aria-label="Filter by genre">
-            <button type="button" class="chip is-active" data-genre="all">
-              All
+          <div class="library-title-group">
+            <button type="button" class="category-back" id="category-back" hidden>
+              ← All categories
             </button>
-            <button type="button" class="chip" data-genre="Arcade">Arcade</button>
-            <button type="button" class="chip" data-genre="Puzzle">Puzzle</button>
-            <button type="button" class="chip" data-genre="Racing">Racing</button>
-            <button type="button" class="chip" data-genre="Fighting">Fighting</button>
-            <button type="button" class="chip" data-genre="Shooter">Shooter</button>
-            <button type="button" class="chip" data-genre="Typing">Typing</button>
+            <h2 id="library-title">Game Categories</h2>
+            <p class="library-subtitle" id="library-subtitle">
+              Choose a category to view its games.
+            </p>
           </div>
         </div>
         <div class="grid" id="game-grid" aria-live="polite"></div>
@@ -70,7 +68,7 @@
     <div class="playframe" id="playframe" hidden>
       <div class="playframe-bar">
         <button type="button" class="btn-back" id="btn-close-play">
-          ← Library
+          ← Games
         </button>
         <span class="playframe-title" id="play-title"></span>
         <a class="btn-open" id="btn-new-tab" href="#" target="_blank" rel="noopener"

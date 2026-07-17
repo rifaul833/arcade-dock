@@ -1,10 +1,11 @@
-/** @typedef {{ id: string, name: string, folder: string, entry: string, tagline: string, genre: string, controls: string, accent: string, image?: string, setup?: 'npm-build'|'vite-build'|'static', serveRoot?: string, packageDir?: string, playPath?: string, overrideEntry?: boolean }} GameDef */
+/** @typedef {{ id: string, name: string, category: string, folder: string, entry: string, tagline: string, genre: string, controls: string, accent: string, image?: string, setup?: 'npm-build'|'vite-build'|'static', serveRoot?: string, packageDir?: string, playPath?: string, overrideEntry?: boolean }} GameDef */
 
 /** @type {GameDef[]} */
 module.exports = [
   {
     id: 'astray',
     name: 'Gravity Ball Escape',
+    category: 'puzzle-logic',
     folder: 'Astray',
     entry: 'index.html',
     image: '/launcher/thumbs/astray.jpg',
@@ -17,6 +18,7 @@ module.exports = [
   {
     id: 'breaklock',
     name: 'BreakLock',
+    category: 'puzzle-logic',
     folder: 'breaklock',
     serveRoot: 'breaklock/public',
     entry: 'index.html',
@@ -32,6 +34,7 @@ module.exports = [
   {
     id: 'hexgl',
     name: 'Hover Craft',
+    category: 'racing',
     folder: 'HexGL',
     entry: 'index.html',
     image: '/launcher/thumbs/hexgl.jpg',
@@ -44,6 +47,7 @@ module.exports = [
   {
     id: 'hextris',
     name: 'Hextris',
+    category: 'arcade',
     folder: 'hextris',
     entry: 'index.html',
     image: '/launcher/thumbs/hextris.jpg',
@@ -56,6 +60,7 @@ module.exports = [
   {
     id: 'mimstris',
     name: 'Mimstris',
+    category: 'puzzle-logic',
     folder: 'mimstris',
     serveRoot: 'mimstris/dist',
     entry: 'index.html',
@@ -70,6 +75,7 @@ module.exports = [
   {
     id: 'mk-js',
     name: 'Mortal Combat',
+    category: 'action-shooter',
     folder: 'mk.js',
     serveRoot: 'mk.js/game',
     entry: 'index.html',
@@ -84,6 +90,7 @@ module.exports = [
   {
     id: 'pacman-canvas',
     name: 'Pacman',
+    category: 'arcade',
     folder: 'pacman-canvas',
     entry: 'index.htm',
     image: '/launcher/thumbs/pacman-canvas.jpg',
@@ -96,6 +103,7 @@ module.exports = [
   {
     id: 'radius-raid',
     name: 'Radius Raid',
+    category: 'action-shooter',
     folder: 'radius-raid-js13k',
     entry: 'index.html',
     image: '/launcher/thumbs/radius-raid.jpg',
@@ -108,6 +116,7 @@ module.exports = [
   {
     id: 'tower-game',
     name: 'Tower Game',
+    category: 'casual-skill',
     folder: 'tower_game',
     entry: 'index.html',
     image: '/launcher/thumbs/tower-game.jpg',
@@ -121,6 +130,7 @@ module.exports = [
   {
     id: 'typer',
     name: 'Typer',
+    category: 'word',
     folder: 'typer',
     entry: 'typer.html',
     image: '/launcher/thumbs/typer.jpg',
@@ -133,6 +143,7 @@ module.exports = [
   {
     id: 'dino-adventure',
     name: 'Dino Adventure',
+    category: 'adventure-platform',
     folder: 'Dino Adventure',
     serveRoot:
       'Dino Adventure/previews.customer.envatousercontent.com/files/366391597',
