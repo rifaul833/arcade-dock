@@ -340,4 +340,18 @@ module.exports = [
     accent: '#38bdf8',
     setup: 'static',
   },
+  {
+    id: 'block-breaker',
+    name: 'Block Breaker',
+    category: 'arcade',
+    folder: 'block-breaker',
+    serveRoot: 'block-breaker/game',
+    entry: 'index.html',
+    image: '/launcher/thumbs/block-breaker.jpg',
+    tagline: 'Bounce the ball, smash the blocks, and clear each level.',
+    genre: 'Arcade',
+    controls: 'Touch / Mouse',
+    accent: '#facc15',
+    setup: 'static',
+  },
 ];
