@@ -227,4 +227,18 @@ module.exports = [
     accent: '#ef4444',
     setup: 'static',
   },
+  {
+    id: 'basketball',
+    name: 'Basketball Challenge',
+    category: 'sports',
+    folder: 'Basketball',
+    serveRoot: 'Basketball/game/files/434651259',
+    entry: 'index.html',
+    image: '/launcher/thumbs/basketball.jpg',
+    tagline: 'Sink the shot — aim, arc, and rack up baskets.',
+    genre: 'Sports',
+    controls: 'Touch / Mouse',
+    accent: '#f97316',
+    setup: 'static',
+  },
 ];
