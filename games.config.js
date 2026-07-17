@@ -256,4 +256,18 @@ module.exports = [
     accent: '#a78bfa',
     setup: 'static',
   },
+  {
+    id: 'science-quiz',
+    name: 'Science Quiz',
+    category: 'educational',
+    folder: 'science-quiz',
+    serveRoot: 'science-quiz/game',
+    entry: 'index.html',
+    image: '/launcher/thumbs/science-quiz.jpg',
+    tagline: 'Test your science knowledge — answer, learn, and beat your score.',
+    genre: 'Quiz',
+    controls: 'Touch / Mouse',
+    accent: '#ffd166',
+    setup: 'static',
+  },
 ];

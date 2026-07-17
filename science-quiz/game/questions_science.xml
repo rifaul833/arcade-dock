@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='utf-8' ?>
+			
+	<root>
+
+		<question>
+			<asking>This essential gas is important so that we can breath.</asking>
+			<alternative1>Nitrogen Oxides</alternative1>
+			<alternative2>Hydrogen</alternative2>
+			<alternative3>Oxygen</alternative3>
+			<alternative4>Hydrocarbons</alternative4>
+			<answer>Oxygen</answer>
+		</question>
+
+		<question>
+			<asking>What is the nearest planet to the sun?</asking>
+			<alternative1>Mercury</alternative1>
+			<alternative2>Jupiter</alternative2>
+			<alternative3>Saturn</alternative3>
+			<alternative4>Earth</alternative4>
+			<answer>Mercury</answer>
+		</question>
+
+		<question>
+			<asking>How many teeth does an adult human have?</asking>
+			<alternative1>26</alternative1>
+			<alternative2>36</alternative2>
+			<alternative3>28</alternative3>
+			<alternative4>32</alternative4>
+			<answer>32</answer>
+		</question>
+
+		<question>
+			<asking>The earth has three layers of varying temperatures. What are its three layers?</asking>
+			<alternative1>Crust, mantle, and core</alternative1>
+			<alternative2>Crust, mantle and center</alternative2>
+			<alternative3>Crust, mantle and water</alternative3>
+			<alternative4>Mantle, water and ground</alternative4>
+			<answer>Crust, mantle, and core</answer>
+		</question>	
+
+		<question>
+			<asking>What is the largest planet in the solar system?</asking>
+			<alternative1>Uranus</alternative1>
+			<alternative2>Venus</alternative2>
+			<alternative3>Neptune</alternative3>
+			<alternative4>Jupiter</alternative4>
+			<answer>Jupiter</answer>
+		</question>	
+		
+		<question>
+			<asking>What do bees collect and use to create honey?</asking>
+			<alternative1>Nectar</alternative1>
+			<alternative2>Pollen</alternative2>
+			<alternative3>Starch</alternative3>
+			<alternative4>Sugar</alternative4>
+			<answer>Nectar</answer>
+		</question>
+
+		<question>
+			<asking>What is the hottest planet in the solar system?</asking>
+			<alternative1>Earth</alternative1>
+			<alternative2>Venus</alternative2>
+			<alternative3>Jupter</alternative3>
+			<alternative4>Saturn</alternative4>
+			<answer>Venus</answer>
+		</question>
+
+		<question>
+			<asking>What is the rarest blood type?</asking>
+			<alternative1>O positive</alternative1>
+			<alternative2>A positive</alternative2>
+			<alternative3>AB negative</alternative3>
+			<alternative4>B negative</alternative4>
+			<answer>AB negative</answer>
+		</question>
+
+		<question>
+			<asking>On what part of your body would you find the pinna?</asking>
+			<alternative1>Ear</alternative1>
+			<alternative2>Mouth</alternative2>
+			<alternative3>Nose</alternative3>
+			<alternative4>Finger</alternative4>
+			<answer>Ear</answer>
+		</question>	
+
+		<question>
+			<asking>What part of the plant conducts photosyntehsis?</asking>
+			<alternative1>Root</alternative1>
+			<alternative2>Stem</alternative2>
+			<alternative3>Stalk</alternative3>
+			<alternative4>Leaf</alternative4>
+			<answer>Leaf</answer>
+		</question>
+		
+		<question>
+			<asking>What’s the boiling point of water?</asking>
+			<alternative1>100 degrees Celcius</alternative1>
+			<alternative2>90 degrees Celcius</alternative2>
+			<alternative3>80 degrees Celcius</alternative3>
+			<alternative4>140 degrees Celcius</alternative4>
+			<answer>100 degrees Celcius</answer>
+		</question>
+
+		<question>
+			<asking>What is the largest known land animal?</asking>
+			<alternative1>Bear</alternative1>
+			<alternative2>Elephant</alternative2>
+			<alternative3>Rhino</alternative3>
+			<alternative4>Giraffe</alternative4>
+			<answer>Elephant</answer>
+		</question>
+
+		<question>
+			<asking>What is the largest known animal?</asking>
+			<alternative1>Blue whale</alternative1>
+			<alternative2>Humpback whale</alternative2>
+			<alternative3>Elephant</alternative3>
+			<alternative4>Lion</alternative4>
+			<answer>Blue whale</answer>
+		</question>
+
+		<question>
+			<asking>What tissues connect the muscles to the bones?</asking>
+			<alternative1>Ligaments</alternative1>
+			<alternative2>Nerves</alternative2>
+			<alternative3>Tendons</alternative3>
+			<alternative4>Cartilage</alternative4>
+			<answer>Tendons</answer>
+		</question>	
+
+		<question>
+			<asking>Who was the scientist to propose the three laws of motion?</asking>
+			<alternative1>Albert Newton</alternative1>
+			<alternative2>Isaac Newton</alternative2>
+			<alternative3>Isaac Koston</alternative3>
+			<alternative4>Cesar N. Koston</alternative4>
+			<answer>Isaac Newton</answer>
+		</question>	
+		
+		<question>
+			<asking>The plant Earth is surrounded by different layers of gas, which when taken together, we call the…?</asking>
+			<alternative1>Atmosphere</alternative1>
+			<alternative2>Troposphere</alternative2>
+			<alternative3>Mesosphere</alternative3>
+			<alternative4>Ionosphere</alternative4>
+			<answer>Atmosphere</answer>
+		</question>
+
+		<question>
+			<asking>Animals that eat both plants and meat are called what?</asking>
+			<alternative1>Herbivores</alternative1>
+			<alternative2>Omnivores</alternative2>
+			<alternative3>Carnivores</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Omnivores</answer>
+		</question>
+
+		<question>
+			<asking>Which of Newton’s Laws state that ‘for every action, there is an equal and opposite reaction?</asking>
+			<alternative1>The third law of motion</alternative1>
+			<alternative2>The second law of motion</alternative2>
+			<alternative3>The tenth law of motion</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>The third law of motion</answer>
+		</question>
+
+		<question>
+			<asking>Diabetes develops as the result of a problem with which specific organ in the body?</asking>
+			<alternative1>Lung</alternative1>
+			<alternative2>Liver</alternative2>
+			<alternative3>Kidney</alternative3>
+			<alternative4>Pancreas</alternative4>
+			<answer>Pancreas</answer>
+		</question>	
+
+		<question>
+			<asking>True or false: sound travels faster in air than in water.</asking>
+			<alternative1>False</alternative1>
+			<alternative2>True</alternative2>
+			<alternative3></alternative3>
+			<alternative4></alternative4>
+			<answer>False</answer>
+		</question>
+		
+		<question>
+			<asking>How long does a human red blood cell survive?</asking>
+			<alternative1>120 days</alternative1>
+			<alternative2>160 days</alternative2>
+			<alternative3>40 days</alternative3>
+			<alternative4>10 days</alternative4>
+			<answer>120 days</answer>
+		</question>
+
+		<question>
+			<asking>True or false – lightning is hotter than the sun.</asking>
+			<alternative1>False</alternative1>
+			<alternative2>True</alternative2>
+			<alternative3></alternative3>
+			<alternative4></alternative4>
+			<answer>True</answer>
+		</question>
+
+		<question>
+			<asking>In what country can you find the Suez Canal?</asking>
+			<alternative1>Denmark</alternative1>
+			<alternative2>Italy</alternative2>
+			<alternative3>Egypt</alternative3>
+			<alternative4>Israel</alternative4>
+			<answer>Egypt</answer>
+		</question>
+
+		<question>
+			<asking>This planet spins the fastest, completing one whole rotation in just 10 hours. Which planet is it?</asking>
+			<alternative1>Venus</alternative1>
+			<alternative2>Mars</alternative2>
+			<alternative3>Saturn</alternative3>
+			<alternative4>Jupiter</alternative4>
+			<answer>Jupiter</answer>
+		</question>	
+
+		<question>
+			<asking>How many elements are there in the periodic table?</asking>
+			<alternative1>118</alternative1>
+			<alternative2>130</alternative2>
+			<alternative3>145</alternative3>
+			<alternative4>103</alternative4>
+			<answer>118</answer>
+		</question>	
+		
+		<question>
+			<asking>This planet has a collective 53 moons, making it the planet in our solar system with the most number of moons.</asking>
+			<alternative1>Uranus</alternative1>
+			<alternative2>Mercury</alternative2>
+			<alternative3>Earth</alternative3>
+			<alternative4>Saturn</alternative4>
+			<answer>Saturn</answer>
+		</question>
+
+		<question>
+			<asking>Where can you find the smallest bone in the human body?</asking>
+			<alternative1>Middle ear</alternative1>
+			<alternative2>Nose</alternative2>
+			<alternative3>Mouth</alternative3>
+			<alternative4>Thumb</alternative4>
+			<answer>Middle ear</answer>
+		</question>
+
+		<question>
+			<asking>Scientists believe that the continents of the earth were all one large landmass 280 million years ago. The moving of tectonic plates caused this mass to break off into different pieces, making up the continents as we know them today. What was this landmass called?</asking>
+			<alternative1>Nangea</alternative1>
+			<alternative2>Pangea</alternative2>
+			<alternative3>Virtea</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Pangea</answer>
+		</question>
+
+		<question>
+			<asking>According to the scientists' theory, Pangea became separate continents, suggesting that the movement of tectonic plates caused the mass to break off and drift into different places. What would that theory be?</asking>
+			<alternative1>Albert Koston's theory of continents</alternative1>
+			<alternative2>The theory of scattered continents</alternative2>
+			<alternative3>The Continental Drift Theory</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>The Continental Drift Theory</answer>
+		</question>	
+
+		<question>
+			<asking>How many hearts does an octopus have?</asking>
+			<alternative1>3</alternative1>
+			<alternative2>1</alternative2>
+			<alternative3>2</alternative3>
+			<alternative4>5</alternative4>
+			<answer>3</answer>
+		</question>
+		
+		<question>
+			<asking>True or false: male seahorses give birth to their young, not the females.</asking>
+			<alternative1>True</alternative1>
+			<alternative2>False</alternative2>
+			<alternative3></alternative3>
+			<alternative4></alternative4>
+			<answer>True</answer>
+		</question>
+
+		<question>
+			<asking>The oldest living tree is 4,843 years old and can be found where?</asking>
+			<alternative1>Miami</alternative1>
+			<alternative2>Texas</alternative2>
+			<alternative3>Washington</alternative3>
+			<alternative4>California</alternative4>
+			<answer>California</answer>
+		</question>
+
+		<question>
+			<asking>Can you hear anything in outer space?</asking>
+			<alternative1>No, there is medium for sound to travel through</alternative1>
+			<alternative2>Yes</alternative2>
+			<alternative3>Maybe it depends on the sound waves</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>No, there is medium for sound to travel through</answer>
+		</question>
+
+		<question>
+			<asking>This man is responsible for reshaping the way early man believed the solar system worked. He proposed that the Earth was not the center of the universe, and that the sun was instead at the center of our solar system. Who was he?</asking>
+			<alternative1>Arquimedes</alternative1>
+			<alternative2>Charles Darwin</alternative2>
+			<alternative3>Albert Einstein</alternative3>
+			<alternative4>Copernicus</alternative4>
+			<answer>Copernicus</answer>
+		</question>	
+
+		<question>
+			<asking>From what tree do acorns come from?</asking>
+			<alternative1>Conifer</alternative1>
+			<alternative2>Oak trees</alternative2>
+			<alternative3>Palm tree</alternative3>
+			<alternative4>Pine tree</alternative4>
+			<answer>Oak trees</answer>
+		</question>	
+		
+		<question>
+			<asking>What is the tallest type of grass?</asking>
+			<alternative1>Bamboo</alternative1>
+			<alternative2>Emerald grass</alternative2>
+			<alternative3>Peanut grass</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Bamboo</answer>
+		</question>
+
+		<question>
+			<asking>Dolly was the first ever living creature to be cloned. What type of animal was she?</asking>
+			<alternative1>Mouse</alternative1>
+			<alternative2>Sheep</alternative2>
+			<alternative3>Frog</alternative3>
+			<alternative4>Monkey</alternative4>
+			<answer>Sheep</answer>
+		</question>
+
+		<question>
+			<asking>This animal was the first ever to be launched into space. She was strapped into the Soviet Sputnik 2 spacecraft which was sent out into outer space on November 3, 1957. What was her name?</asking>
+			<alternative1>Laika</alternative1>
+			<alternative2>Taffy</alternative2>
+			<alternative3>Lassie</alternative3>
+			<alternative4>Valentine</alternative4>
+			<answer>Laika</answer>
+		</question>
+
+		<question>
+			<asking>What type of animal was Laika? The first animal to go into outer space.</asking>
+			<alternative1>Dog</alternative1>
+			<alternative2>Cat</alternative2>
+			<alternative3>Sheep</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Dog</answer>
+		</question>	
+
+		<question>
+			<asking>An egg’s shell is what percentage of its total weight?</asking>
+			<alternative1>5%</alternative1>
+			<alternative2>25%</alternative2>
+			<alternative3>18%</alternative3>
+			<alternative4>12%</alternative4>
+			<answer>12%</answer>
+		</question>
+		
+		<question>
+			<asking>What is the smallest country in the world?</asking>
+			<alternative1>Vatican City</alternative1>
+			<alternative2>Peru</alternative2>
+			<alternative3>Chile</alternative3>
+			<alternative4>Cuba</alternative4>
+			<answer>Vatican City</answer>
+		</question>
+
+		<question>
+			<asking>Who is regarded as the man who invented the telephone?</asking>
+			<alternative1>Alexander Graham Bell</alternative1>
+			<alternative2>Alex Bell Brown</alternative2>
+			<alternative3>Pedro B. Koston</alternative3>
+			<alternative4>None of the alternatives </alternative4>
+			<answer>Alexander Graham Bell</answer>
+		</question>
+
+		<question>
+			<asking>What is considered the highest mountain in Africa?</asking>
+			<alternative1>Nanga Parbat</alternative1>
+			<alternative2>Makalu</alternative2>
+			<alternative3>Mount Kilimanjaro</alternative3>
+			<alternative4>K2</alternative4>
+			<answer>Mount Kilimanjaro</answer>
+		</question>
+
+		<question>
+			<asking>In what year was Alaska sold to the United States of America?</asking>
+			<alternative1>1820</alternative1>
+			<alternative2>1867</alternative2>
+			<alternative3>1760</alternative3>
+			<alternative4>1690</alternative4>
+			<answer>1867</answer>
+		</question>	
+
+		<question>
+			<asking>How many bones do sharks have in total?</asking>
+			<alternative1>Zero</alternative1>
+			<alternative2>Seven</alternative2>
+			<alternative3>Three</alternative3>
+			<alternative4>Fourteen</alternative4>
+			<answer>Zero</answer>
+		</question>	
+		
+		<question>
+			<asking>Discovered by Alexander Fleming, this is now used to treat infections and is considered one of the most important discoveries in the field of medical science. What is it?</asking>
+			<alternative1>Caffeine</alternative1>
+			<alternative2>Amoxicillin</alternative2>
+			<alternative3>Chloroquine</alternative3>
+			<alternative4>Penicillin</alternative4>
+			<answer>Penicillin</answer>
+		</question>
+
+		<question>
+			<asking>This measurement – approximately six feet – is used to measure the depth of water. What is it?</asking>
+			<alternative1>Fathom</alternative1>
+			<alternative2>Meters</alternative2>
+			<alternative3>Millimeter</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Fathom</answer>
+		</question>
+
+		<question>
+			<asking>What is a geiger counter used to measure?</asking>
+			<alternative1>Width</alternative1>
+			<alternative2>Temperature</alternative2>
+			<alternative3>Radiation</alternative3>
+			<alternative4>Height</alternative4>
+			<answer>Radiation</answer>
+		</question>
+
+		<question>
+			<asking>What is the hardest known natural material?</asking>
+			<alternative1>Diamonds</alternative1>
+			<alternative2>Steel</alternative2>
+			<alternative3>Gold</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Diamonds</answer>
+		</question>	
+
+		<question>
+			<asking>True or false: your hair and your nails are made from the same material.</asking>
+			<alternative1>True</alternative1>
+			<alternative2>False</alternative2>
+			<alternative3></alternative3>
+			<alternative4></alternative4>
+			<answer>True</answer>
+		</question>	
+		
+	</root>
+
