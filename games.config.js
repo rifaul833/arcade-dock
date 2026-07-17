@@ -213,4 +213,18 @@ module.exports = [
     accent: '#fb7185',
     setup: 'static',
   },
+  {
+    id: 'gunfighter',
+    name: 'Gunfighter',
+    category: 'action-shooter',
+    folder: 'GunFighter',
+    serveRoot: 'GunFighter/game',
+    entry: 'index.html',
+    image: '/launcher/thumbs/gunfighter.jpg',
+    tagline: 'Western gun platformer — shoot, dodge, and clear every stage.',
+    genre: 'Shooter',
+    controls: 'Keyboard / Touch',
+    accent: '#ef4444',
+    setup: 'static',
+  },
 ];
