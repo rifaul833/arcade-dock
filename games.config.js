@@ -313,4 +313,17 @@ module.exports = [
     accent: '#f472b6',
     setup: 'static',
   },
+  {
+    id: 'super-t-trix',
+    name: 'Super T-Trix',
+    category: 'puzzle-logic',
+    folder: 'super-t-trix',
+    entry: 'index.html',
+    image: '/launcher/thumbs/super-t-trix.jpg',
+    tagline: 'Stack blocks, clear rows, and chase a Tetris-style high score.',
+    genre: 'Puzzle',
+    controls: 'Touch / Keyboard',
+    accent: '#22d3ee',
+    setup: 'static',
+  },
 ];
