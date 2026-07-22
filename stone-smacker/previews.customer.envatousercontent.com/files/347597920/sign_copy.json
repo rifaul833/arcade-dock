@@ -1,0 +1,95 @@
+{
+    "c2array": true,
+    "size": [
+        5,
+        5,
+        1
+    ],
+    "data": [
+        [
+            [
+                "Hey! Find and open the chest at the end of the level!"
+            ],
+            [
+                "Congratulations! You've found all the treasure chests! Thank you!"
+            ],
+            [
+                "Your progress is excellent! Keep it up!"
+            ],
+            [
+                "0,3"
+            ],
+            [
+                "0,4"
+            ]
+        ],
+        [
+            [
+                "To attack, press SPACE or \"On-Screen Sword Button\"."
+            ],
+            [
+                "You are almost winning!"
+            ],
+            [
+                "You are far from home, the difficulty will increase!"
+            ],
+            [
+                "1,3"
+            ],
+            [
+                "1,4"
+            ]
+        ],
+        [
+            [
+                "Push the stones to fill the holes!"
+            ],
+            [
+                "Keep it up! You are a great treasure hunter!"
+            ],
+            [
+                "The people of your village are very happy! Your progress is very good!"
+            ],
+            [
+                "2,3"
+            ],
+            [
+                "2,4"
+            ]
+        ],
+        [
+            [
+                "You are doing great!"
+            ],
+            [
+                "Your father is very proud of you! Keep finding the treasure chests!"
+            ],
+            [
+                "You have reached the penultimate level! Now the challenges are higher!"
+            ],
+            [
+                "3,3"
+            ],
+            [
+                "3,4"
+            ]
+        ],
+        [
+            [
+                "Congratulations! You have reached the final level!"
+            ],
+            [
+                "Keep it up, you'll be able to help your entire village!"
+            ],
+            [
+                "Do not give up! You are almost there!"
+            ],
+            [
+                "4,3"
+            ],
+            [
+                "Hit to Reset Level!"
+            ]
+        ]
+    ]
+}
