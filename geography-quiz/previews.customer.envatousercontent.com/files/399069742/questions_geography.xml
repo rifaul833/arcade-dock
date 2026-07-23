@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='utf-8' ?>
+			
+	<root>
+
+		<question>
+			<asking>Which is the largest country in the world?</asking>
+			<alternative1>Denmark</alternative1>
+			<alternative2>Russia</alternative2>
+			<alternative3>Brazil</alternative3>
+			<alternative4>Canada</alternative4>
+			<answer>Russia</answer>
+		</question>
+		
+		<question>
+			<asking>Which country has the largest population in the world?</asking>
+			<alternative1>China</alternative1>
+			<alternative2>Japan</alternative2>
+			<alternative3>Israel</alternative3>
+			<alternative4>Italy</alternative4>
+			<answer>China</answer>
+		</question>
+		
+		<question>
+			<asking>What is the capital city of India?</asking>
+			<alternative1>Brasilia</alternative1>
+			<alternative2>Buenos Aires</alternative2>
+			<alternative3>New Delhi</alternative3>
+			<alternative4>Camberra</alternative4>
+			<answer>New Delhi</answer>
+		</question>
+		
+		<question>
+			<asking>In which country would you find the Leaning Tower of Pisa?</asking>
+			<alternative1>Chile</alternative1>
+			<alternative2>Argentina</alternative2>
+			<alternative3>France</alternative3>
+			<alternative4>Italy</alternative4>
+			<answer>Italy</answer>
+		</question>
+		
+		<question>
+			<asking>Which planet is nearest to the Earth?</asking>
+			<alternative1>Mars</alternative1>
+			<alternative2>Venus</alternative2>
+			<alternative3>Saturn</alternative3>
+			<alternative4>Mercury</alternative4>
+			<answer>Venus</answer>
+		</question>
+		
+		<question>
+			<asking>Which is the largest waterfall in the world?</asking>
+			<alternative1>Victoria Falls</alternative1>
+			<alternative2>Dettifoss</alternative2>
+			<alternative3>Niagara Falls</alternative3>
+			<alternative4>Angel Falls</alternative4>
+			<answer>Victoria Falls</answer>
+		</question>
+		
+		<question>
+			<asking>Which is the biggest desert in the world?</asking>
+			<alternative1>Arabian Desert</alternative1>
+			<alternative2>Kalahari Desert</alternative2>
+			<alternative3>Gobi Desert</alternative3>
+			<alternative4>Sahara Desert</alternative4>
+			<answer>Sahara Desert</answer>
+		</question>
+		
+		<question>
+			<asking>Which is the hottest continent on Earth?</asking>
+			<alternative1>Asia</alternative1>
+			<alternative2>Africa</alternative2>
+			<alternative3>America</alternative3>
+			<alternative4>Europe</alternative4>
+			<answer>Africa</answer>
+		</question>
+		
+		<question>
+			<asking>Which is the highest mountain in the world?</asking>
+			<alternative1>Mount Everest</alternative1>
+			<alternative2>Makalu</alternative2>
+			<alternative3>Cho Oyu</alternative3>
+			<alternative4>Nanga Parbat</alternative4>
+			<answer>Mount Everest</answer>
+		</question>
+		
+		<question>
+			<asking>Which is the coldest place on Earth?</asking>
+			<alternative1>Alaska</alternative1>
+			<alternative2>South Africa</alternative2>
+			<alternative3>Canada</alternative3>
+			<alternative4>Antarctica</alternative4>
+			<answer>Antarctica</answer>
+		</question>
+	
+		<question>
+			<asking>What is the capital city of Canada?</asking>
+			<alternative1>Toronto</alternative1>
+			<alternative2>Tampa</alternative2>
+			<alternative3>Ottawa</alternative3>
+			<alternative4>Washington</alternative4>
+			<answer>Ottawa</answer>
+		</question>
+		
+		<question>
+			<asking>How many deserts does Africa have?</asking>
+			<alternative1>Four</alternative1>
+			<alternative2>Three</alternative2>
+			<alternative3>Five</alternative3>
+			<alternative4>One</alternative4>
+			<answer>Three</answer>
+		</question>
+		
+		<question>
+			<asking>Which river flows through the rainforest in Brazil?</asking>
+			<alternative1>Paraiba River</alternative1>
+			<alternative2>Nile River</alternative2>
+			<alternative3>San Francisco River</alternative3>
+			<alternative4>Amazon River</alternative4>
+			<answer>Amazon River</answer>
+		</question>
+		
+		<question>
+			<asking>Where are the Andes mountains located?</asking>
+			<alternative1>South America</alternative1>
+			<alternative2>North America</alternative2>
+			<alternative3>Africa</alternative3>
+			<alternative4>Europe</alternative4>
+			<answer>South America</answer>
+		</question>
+		
+		<question>
+			<asking>What is the capital of Uruguay?</asking>
+			<alternative1>Buenos Aires</alternative1>
+			<alternative2>Montevideo</alternative2>
+			<alternative3>Bariloche</alternative3>
+			<alternative4>Santiago</alternative4>
+			<answer>Montevideo</answer>
+		</question>
+	
+		<question>
+			<asking>From whom did the USA purchase Alaska from?</asking>
+			<alternative1>Russia</alternative1>
+			<alternative2>France</alternative2>
+			<alternative3>China</alternative3>
+			<alternative4>Japan</alternative4>
+			<answer>Russia</answer>
+		</question>
+		
+		<question>
+			<asking>Which is the largest rock in the world?</asking>
+			<alternative1>El Capitan</alternative1>
+			<alternative2>Ben Amera</alternative2>
+			<alternative3>Devils Tower</alternative3>
+			<alternative4>Mount Augustus</alternative4>
+			<answer>Mount Augustus</answer>
+		</question>
+		
+		<question>
+			<asking>Which is the oldest city in the world?</asking>
+			<alternative1>Biblos</alternative1>
+			<alternative2>Damascus</alternative2>
+			<alternative3>Alepo</alternative3>
+			<alternative4>Atenas</alternative4>
+			<answer>Damascus</answer>
+		</question>
+		
+		<question>
+			<asking>Which river forms part of the boundary between Mexico and the United States?</asking>
+			<alternative1>Rio Grande</alternative1>
+			<alternative2>Nile River</alternative2>
+			<alternative3>Amazon River</alternative3>
+			<alternative4>Rio Panama</alternative4>
+			<answer>Rio Grande</answer>
+		</question>
+
+		<question>
+			<asking>In which American city is the Golden Gate Bridge located?</asking>
+			<alternative1>San Francisco</alternative1>
+			<alternative2>Miami</alternative2>
+			<alternative3>New Jersey</alternative3>
+			<alternative4>Las Vegas</alternative4>
+			<answer>San Francisco</answer>
+		</question>
+		
+		<question>
+			<asking>What is the capital city of Spain?</asking>
+			<alternative1>Madrid</alternative1>
+			<alternative2>Caracas</alternative2>
+			<alternative3>Brasilia</alternative3>
+			<alternative4>Paris</alternative4>
+			<answer>Madrid</answer>
+		</question>
+		
+		<question>
+			<asking>In which country would you find Mount Kilimanjaro?</asking>
+			<alternative1>Mexico</alternative1>
+			<alternative2>Chile</alternative2>
+			<alternative3>Tanzania</alternative3>
+			<alternative4>Denmark</alternative4>
+			<answer>Tanzania</answer>
+		</question>
+		
+		<question>
+			<asking>Which is the largest lake in the world?</asking>
+			<alternative1>Caspian Sea</alternative1>
+			<alternative2>Victory Lake</alternative2>
+			<alternative3>Huron Lake</alternative3>
+			<alternative4>Michigan Lake</alternative4>
+			<answer>Caspian Sea</answer>
+		</question>
+		
+		<question>
+			<asking>What are horizontal and vertical imaginary lines around the earth called?</asking>
+			<alternative1>Latitudes</alternative1>
+			<alternative2>Latitudes and Longitudes</alternative2>
+			<alternative3>Longitudes</alternative3>
+			<alternative4>Equador and Latitudes</alternative4>
+			<answer>Latitudes and Longitudes</answer>
+		</question>
+		
+		<question>
+			<asking>Ceylon is the former name of which country?</asking>
+			<alternative1>Iran</alternative1>
+			<alternative2>Canada</alternative2>
+			<alternative3>Italy</alternative3>
+			<alternative4>Sri Lanka</alternative4>
+			<answer>Sri Lanka</answer>
+		</question>
+	
+		<question>
+			<asking>Which is the largest US state in terms of population?</asking>
+			<alternative1>Nevada</alternative1>
+			<alternative2>Oregon</alternative2>
+			<alternative3>California</alternative3>
+			<alternative4>Kansas</alternative4>
+			<answer>California</answer>
+		</question>
+		
+		<question>
+			<asking>What is the official language of Brazil?</asking>
+			<alternative1>Portuguese</alternative1>
+			<alternative2>English</alternative2>
+			<alternative3>Spanish</alternative3>
+			<alternative4>Japanese</alternative4>
+			<answer>Portuguese</answer>
+		</question>
+		
+		<question>
+			<asking>What is the capital of Thailand?</asking>
+			<alternative1>Toronto</alternative1>
+			<alternative2>Washington</alternative2>
+			<alternative3>Santiago</alternative3>
+			<alternative4>Bangkok</alternative4>
+			<answer>Bangkok</answer>
+		</question>
+		
+		<question>
+			<asking>At which height does a hill become a mountain?</asking>
+			<alternative1>900m</alternative1>
+			<alternative2>450m</alternative2>
+			<alternative3>600m</alternative3>
+			<alternative4>800m</alternative4>
+			<answer>600m</answer>
+		</question>
+
+		<question>
+			<asking>Which two continents does Russia belong to?</asking>
+			<alternative1>Africa and Europe</alternative1>
+			<alternative2>Europe and Asia</alternative2>
+			<alternative3>Asia and America</alternative3>
+			<alternative4>America and Africa</alternative4>
+			<answer>Europe and Asia</answer>
+		</question>
+		
+		<question>
+			<asking>What is the currency used in Britain?</asking>
+			<alternative1>Pound sterling</alternative1>
+			<alternative2>Peso</alternative2>
+			<alternative3>Real</alternative3>
+			<alternative4>Dolar</alternative4>
+			<answer>Pound sterling</answer>
+		</question>
+		
+		<question>
+			<asking>Which is the smallest country in the world?</asking>
+			<alternative1>Poland</alternative1>
+			<alternative2>Portugal</alternative2>
+			<alternative3>Vatican City</alternative3>
+			<alternative4>Peru</alternative4>
+			<answer>Vatican City</answer>
+		</question>
+		
+		<question>
+			<asking>Which country is called the Land of Rising Sun?</asking>
+			<alternative1>South Korea</alternative1>
+			<alternative2>Thailand</alternative2>
+			<alternative3>China</alternative3>
+			<alternative4>Japan</alternative4>
+			<answer>Japan</answer>
+		</question>
+		
+		<question>
+			<asking>Which country shares the same peninsula as Portugal?</asking>
+			<alternative1>Spain</alternative1>
+			<alternative2>France</alternative2>
+			<alternative3>Portugal</alternative3>
+			<alternative4>Italy</alternative4>
+			<answer>Spain</answer>
+		</question>
+		
+		<question>
+			<asking>Which country is Taj Mahal in?</asking>
+			<alternative1>South Africa</alternative1>
+			<alternative2>Denmark</alternative2>
+			<alternative3>India</alternative3>
+			<alternative4>Iran</alternative4>
+			<answer>India</answer>
+		</question>
+	
+		<question>
+			<asking>What lies above mexico?</asking>
+			<alternative1>Cuba</alternative1>
+			<alternative2>USA</alternative2>
+			<alternative3>Chile</alternative3>
+			<alternative4>Canada</alternative4>
+			<answer>USA</answer>
+		</question>
+		
+		<question>
+			<asking>Where do river Clyde flow through?</asking>
+			<alternative1>Tokyo</alternative1>
+			<alternative2>Colorado</alternative2>
+			<alternative3>Niagara</alternative3>
+			<alternative4>Glasgow</alternative4>
+			<answer>Glasgow</answer>
+		</question>
+		
+		<question>
+			<asking>Which country faces the threat of drowning due to global warming?</asking>
+			<alternative1>Japan</alternative1>
+			<alternative2>Chile</alternative2>
+			<alternative3>Maldives</alternative3>
+			<alternative4>Cuba</alternative4>
+			<answer>Maldives</answer>
+		</question>
+		
+		<question>
+			<asking>Where is K2 mountain located?</asking>
+			<alternative1>Between Japan and South Korea</alternative1>
+			<alternative2>Between China and Pakistan border</alternative2>
+			<alternative3>Between China and Japan</alternative3>
+			<alternative4>Between France and Portugal</alternative4>
+			<answer>Between China and Pakistan border</answer>
+		</question>
+
+		<question>
+			<asking>Which is the world’s biggest port?</asking>
+			<alternative1>Shenzhen</alternative1>
+			<alternative2>Port of Hong Kong</alternative2>
+			<alternative3>Port of Santos</alternative3>
+			<alternative4>Port of Shanghai</alternative4>
+			<answer>Port of Shanghai</answer>
+		</question>
+
+		<question>
+			<asking>Which country is the leading egg producer in the world?</asking>
+			<alternative1>China</alternative1>
+			<alternative2>Brazil</alternative2>
+			<alternative3>Argentina</alternative3>
+			<alternative4>Russia</alternative4>
+			<answer>China</answer>
+		</question>
+		
+		<question>
+			<asking>What is the capital city of China?</asking>
+			<alternative1>Wuhan</alternative1>
+			<alternative2>Chengdu</alternative2>
+			<alternative3>Beijing</alternative3>
+			<alternative4>Changsha</alternative4>
+			<answer>Beijing</answer>
+		</question>
+		
+		<question>
+			<asking>What is the official language of Australia?</asking>
+			<alternative1>English language</alternative1>
+			<alternative2>Spanish</alternative2>
+			<alternative3>Portuguese</alternative3>
+			<alternative4>German</alternative4>
+			<answer>English language</answer>
+		</question>
+		
+		<question>
+			<asking>Which city is also known as The Eternal City?</asking>
+			<alternative1>Sao Paulo</alternative1>
+			<alternative2>Rome</alternative2>
+			<alternative3>San Francisco</alternative3>
+			<alternative4>Paris</alternative4>
+			<answer>Rome</answer>
+		</question>
+		
+		<question>
+			<asking>In which country do you find the Yellow River, also known as Huang He?</asking>
+			<alternative1>Denmark</alternative1>
+			<alternative2>Russia</alternative2>
+			<alternative3>Japan</alternative3>
+			<alternative4>China</alternative4>
+			<answer>China</answer>
+		</question>
+	
+		<question>
+			<asking>Which South American country has land borders with ten other countries?</asking>
+			<alternative1>Uruguay</alternative1>
+			<alternative2>Brazil</alternative2>
+			<alternative3>Peru</alternative3>
+			<alternative4>Paraguay</alternative4>
+			<answer>Brazil</answer>
+		</question>
+		
+		<question>
+			<asking>How many countries are there in the world today?</asking>
+			<alternative1>230 countries</alternative1>
+			<alternative2>250 countries</alternative2>
+			<alternative3>195 countries</alternative3>
+			<alternative4>140 countries</alternative4>
+			<answer>195 countries</answer>
+		</question>
+		
+		<question>
+			<asking>Which ocean lies between Europe and America?</asking>
+			<alternative1>Atlantic Ocean</alternative1>
+			<alternative2>Indian Ocean</alternative2>
+			<alternative3>Pacific Ocean</alternative3>
+			<alternative4>Arctic Glacial Ocean</alternative4>
+			<answer>Atlantic Ocean</answer>
+		</question>
+		
+		<question>
+			<asking>Which country is the second biggest in the world?</asking>
+			<alternative1>USA</alternative1>
+			<alternative2>Brazil</alternative2>
+			<alternative3>Canada</alternative3>
+			<alternative4>China</alternative4>
+			<answer>Canada</answer>
+		</question>
+
+		<question>
+			<asking>Which is the longest river in the world?</asking>
+			<alternative1>Nile</alternative1>
+			<alternative2>Amazon</alternative2>
+			<alternative3>Paraiba</alternative3>
+			<alternative4>Rio Grande</alternative4>
+			<answer>Nile</answer>
+		</question>
+		
+	</root>
+
