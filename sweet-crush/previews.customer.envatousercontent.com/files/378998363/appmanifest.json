@@ -1,0 +1,10 @@
+{
+	"name": "Sweet Crush",
+	"short_name": "Sweet Crush",
+	"description": "Puzzle Game",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": []
+}

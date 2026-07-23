@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+17:40:03	1355/1355	---MCZ	200	added ('OK')	text/html	etag:W/%227f98ec64c63f3a5049e06eeac48bfede%22	https://previews.customer.envatousercontent.com/files/388884462/index.html	/home/zion/websites/snake-ladder/previews.customer.envatousercontent.com/files/388884462/index.html	(from )
+17:40:04	163/163	---M--	200	added ('OK')	text/plain	etag:%2201d8acbbd28d868c4bc62a0102c4fac5%22	https://previews.customer.envatousercontent.com/robots.txt		(from )
