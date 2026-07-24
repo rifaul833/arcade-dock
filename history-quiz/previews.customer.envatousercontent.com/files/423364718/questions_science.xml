@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='utf-8' ?>
+			
+	<root>
+
+		<question>
+			<asking>Which queen had the shortest reign of Henry VIII’s six wives?</asking>
+			<alternative1>Anne of Cleves</alternative1>
+			<alternative2>Catarina Howard</alternative2>
+			<alternative3>Jane Seymour</alternative3>
+			<alternative4>Ana Bolena</alternative4>
+			<answer>Anne of Cleves</answer>
+		</question>
+		
+		<question>
+			<asking>In 16th-century Japan, who was Yasuke?</asking>
+			<alternative1>The FIRST foreign-born samurai in 16th-century Japan</alternative1>
+			<alternative2>The SECOND foreign-born samurai in 16th-century Japan</alternative2>
+			<alternative3>The King of Japan in the 16th Century</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>The FIRST foreign-born samurai in 16th-century Japan</answer>
+		</question>
+		
+		<question>
+			<asking>Who wrote the 12th-century account Historia regum Britanniae (The History of the Kings of Britain), which is often credited with making the legend of King Arthur popular?</asking>
+			<alternative1>Morgan Thomaz</alternative1>
+			<alternative2>Geoff Rowleey</alternative2>
+			<alternative3>Geoffrey of Monmouth</alternative3>
+			<alternative4>Jamie Kostom</alternative4>
+			<answer>Geoffrey of Monmouth</answer>
+		</question>
+		
+		<question>
+			<asking>It is thought that Harriet Tubman directly rescued around 300 people from slavery and gave instructions to help dozens more. But in which conflict did she become the first woman to lead an armed assault?</asking>
+			<alternative1>Harriet Tubman served in the America Civil War</alternative1>
+			<alternative2>She served in the Gulf War</alternative2>
+			<alternative3>She served in the Vietnam War</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Harriet Tubman served in the America Civil War</answer>
+		</question>
+		
+		<question>
+			<asking>In which country is the Bay of Pigs?</asking>
+			<alternative1>Costa Rica</alternative1>
+			<alternative2>Mexico</alternative2>
+			<alternative3>Honduras</alternative3>
+			<alternative4>Cuba</alternative4>
+			<answer>Cuba</answer>
+		</question>
+		
+		<question>
+			<asking>Which medieval queen was married to both Louis VII of France and Henry II of England?</asking>
+			<alternative1>Isabel de Castela</alternative1>
+			<alternative2>Eleanor of Aquitaine</alternative2>
+			<alternative3>Grace Kelly</alternative3>
+			<alternative4>Kate Middleton</alternative4>
+			<answer>Eleanor of Aquitaine</answer>
+		</question>
+		
+		<question>
+			<asking>Who was the first human to journey into space?</asking>
+			<alternative1>John Glenn, in April 1959</alternative1>
+			<alternative2>Gus Grissom, in September 1963</alternative2>
+			<alternative3>Yuri Gagarin, in April 1961</alternative3>
+			<alternative4>Alan Shepard, in May 1960</alternative4>
+			<answer>Yuri Gagarin, in April 1961</answer>
+		</question>
+		
+		<question>
+			<asking>Whose body was exhumed from Westminster Abbey, more than two years after his death, to be ‘executed’ for treason?</asking>
+			<alternative1>The body of Oliver Cromwell was exhumed in 1661</alternative1>
+			<alternative2>The body of Russel Koston was exhumed in 1660</alternative2>
+			<alternative3>The body of Carl Vasquez was exhumed in 1662</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>The body of Oliver Cromwell was exhumed in 1661</answer>
+		</question>
+		
+		<question>
+			<asking>By what nickname is Edward Teach better known?</asking>
+			<alternative1>17th-century pirate 'Redhead'</alternative1>
+			<alternative2>17th-century pirate 'Redbeard'</alternative2>
+			<alternative3>17th-century pirate 'Blackbeard'</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>17th-century pirate 'Blackbeard'</answer>
+		</question>
+		
+		<question>
+			<asking>Julius Caesar was assassinated on 15 March 44 BC, a date now often known by what term?</asking>
+			<alternative1>The Ides of March</alternative1>
+			<alternative2>The Ides of September</alternative2>
+			<alternative3>Period of discord</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>The Ides of March</answer>
+		</question>
+		
+		<question>
+			<asking>Where did the Great Fire of London begin, on 2 September 1666?</asking>
+			<alternative1>In Thomas Farriner’s bakery on Canterbury</alternative1>
+			<alternative2>In Thomas Farriner’s bakery on Pudding Lane</alternative2>
+			<alternative3>In Thomas Farriner’s bakery on Cambridge</alternative3>
+			<alternative4>In Thomas Farriner’s bakery on Brighton</alternative4>
+			<answer>In Thomas Farriner’s bakery on Pudding Lane</answer>
+		</question>
+		
+		<question>
+			<asking>What German dance, which sees partners spinning together in close contact, was condemned as depraved when it was first seen in Regency society?</asking>
+			<alternative1>Classical Ballet</alternative1>
+			<alternative2>Breakdance</alternative2>
+			<alternative3>The Waltz</alternative3>
+			<alternative4>Belly dance</alternative4>
+			<answer>The Waltz</answer>
+		</question>
+		
+		<question>
+			<asking>Which king preceded Queen Victoria?</asking>
+			<alternative1>King William IV (who was Victoria’s uncle)</alternative1>
+			<alternative2>King Bostom IV (who was Victoria’s uncle)</alternative2>
+			<alternative3>King Lee IV (who was Victoria’s uncle)</alternative3>
+			<alternative4>King Thomaz IV (who was Victoria’s uncle)</alternative4>
+			<answer>King William IV (who was Victoria’s uncle)</answer>
+		</question>
+		
+		<question>
+			<asking>Guy Bailey, Roy Hackett and Paul Stephenson made history in 1963, as part of a protest against a bus company that refused to employ black and Asian drivers in which UK city?</asking>
+			<alternative1>Manchester</alternative1>
+			<alternative2>Liverpool</alternative2>
+			<alternative3>Bristol</alternative3>
+			<alternative4>Glasgow</alternative4>
+			<answer>Bristol</answer>
+		</question>
+		
+		<question>
+			<asking>Who famously duelled Alexander Hamilton on 11 July 1804, resulting in the founding father’s death?</asking>
+			<alternative1>Chris Parker</alternative1>
+			<alternative2>Rudson Rowley</alternative2>
+			<alternative3>Greg Forte</alternative3>
+			<alternative4>Aaron Burr</alternative4>
+			<answer>Aaron Burr</answer>
+		</question>
+		
+		<question>
+			<asking>Who was the mother of Emperor Nero and the wife of Emperor Claudius?</asking>
+			<alternative1>Agrippina the Younger</alternative1>
+			<alternative2>Peter the Younger</alternative2>
+			<alternative3>Raphael the Younger</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Agrippina the Younger</answer>
+		</question>
+		
+		<question>
+			<asking>What was Mary Anning (1799–1847) famous for?</asking>
+			<alternative1>Collecting cars</alternative1>
+			<alternative2>Collecting fossils</alternative2>
+			<alternative3>Collecting stones</alternative3>
+			<alternative4>Collecting trees</alternative4>
+			<answer>Collecting fossils</answer>
+		</question>
+		
+		<question>
+			<asking>Who gave Queen Elizabeth I the soubriquet ‘Gloriana’?</asking>
+			<alternative1>Edmund Spenser, in his epic poem ‘The Faerie Queene’</alternative1>
+			<alternative2>Edward Bolson, in his epic poem 'The Fire'</alternative2>
+			<alternative3>Robert Blond, in his epic song 'The Water'</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Edmund Spenser, in his epic poem ‘The Faerie Queene’</answer>
+		</question>
+		
+		<question>
+			<asking>Although never taking her seat, who was the first woman to be elected to the houses of parliament?</asking>
+			<alternative1>Countess Martha</alternative1>
+			<alternative2>Countess Patricia</alternative2>
+			<alternative3>Countess Markievicz</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Countess Markievicz</answer>
+		</question>
+		
+		<question>
+			<asking>Where was Napoleon Bonaparte born?</asking>
+			<alternative1>Marseille</alternative1>
+			<alternative2>Paris</alternative2>
+			<alternative3>Cannes</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>None of the alternatives</answer>
+		</question>
+		
+		<question>
+			<asking>Can you name the five beach codenames used by Allied forces on D-Day?</asking>
+			<alternative1>Utah; Omaha; Gold; Juno and Sword</alternative1>
+			<alternative2>Utah; Omaha; Silver; Juno and Sword</alternative2>
+			<alternative3>Utah; Amsterdam; Silver; Juno and Sword</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Utah; Omaha; Gold; Juno and Sword</answer>
+		</question>
+		
+		<question>
+			<asking>Where was the first British colony in the Americas?</asking>
+			<alternative1>kauai</alternative1>
+			<alternative2>Roanoke</alternative2>
+			<alternative3>Moorea</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Roanoke</answer>
+		</question>
+		
+		<question>
+			<asking>In August 1819, around 60,000 peaceful pro-democracy protestors were attacked in an open square in Manchester. This event was known as...</asking>
+			<alternative1>The Varzea Massacre</alternative1>
+			<alternative2>The Homeless Massacre</alternative2>
+			<alternative3>The Peterloo Massacre</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>The Peterloo Massacre</answer>
+		</question>
+		
+		<question>
+			<asking>Which rock band formed in 1994 takes its name from a term used by the Allies in the Second World War to describe various UFOs?</asking>
+			<alternative1>The Flanders</alternative1>
+			<alternative2>The Beatles</alternative2>
+			<alternative3>Greenday</alternative3>
+			<alternative4>The Foo Fighters</alternative4>
+			<answer>The Foo Fighters</answer>
+		</question>
+		
+		<question>
+			<asking>In which year did Emily Wilding Davison die as a result of a collision with King George V’s horse during the Epsom Derby?</asking>
+			<alternative1>1913</alternative1>
+			<alternative2>1933</alternative2>
+			<alternative3>1940</alternative3>
+			<alternative4>1898</alternative4>
+			<answer>1913</answer>
+		</question>
+		
+		<question>
+			<asking>Which English king died in 1066, leaving no heir to the throne?</asking>
+			<alternative1>Robert the Confessor</alternative1>
+			<alternative2>Edward the Confessor</alternative2>
+			<alternative3>Paul Kristen the Confessor</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Edward the Confessor</answer>
+		</question>
+		
+		<question>
+			<asking>Neil Armstrong, Buzz Aldrin and…? Who was the third astronaut involved in the Apollo 11 mission that landed on the moon?</asking>
+			<alternative1>Marcos Pontes</alternative1>
+			<alternative2>Joseph Parkson</alternative2>
+			<alternative3>Michael Collins</alternative3>
+			<alternative4>None of them</alternative4>
+			<answer>Michael Collins</answer>
+		</question>
+		
+		<question>
+			<asking>What was Matthew Hopkins famous for in the 17th century?</asking>
+			<alternative1>He was a witch-finder</alternative1>
+			<alternative2>He was a crocodile-finder</alternative2>
+			<alternative3>He was a snake hunter</alternative3>
+			<alternative4>He was a dragon hunter</alternative4>
+			<answer>He was a witch-finder</answer>
+		</question>
+		
+		<question>
+			<asking>In what century did the Peasants’ Revolt take place?</asking>
+			<alternative1>In 1425, in the 15th century</alternative1>
+			<alternative2>In 1381, in the 14th century</alternative2>
+			<alternative3>In 1620, in the 17th century</alternative3>
+			<alternative4>In 1589, in the 16th century</alternative4>
+			<answer>In 1381, in the 14th century</answer>
+		</question>
+		
+		<question>
+			<asking>During the US civil rights movement in the 1960s, who said: “We declare our right on this earth...to be a human being...by any means necessary”?</asking>
+			<alternative1>Maicon Thomaz X</alternative1>
+			<alternative2>Malcolm X</alternative2>
+			<alternative3>Nicholas X</alternative3>
+			<alternative4>None of them</alternative4>
+			<answer>Malcolm X</answer>
+		</question>
+		
+		<question>
+			<asking>Who was the wife of the future Henry VIII’s older brother, Arthur?</asking>
+			<alternative1>Alice of Sants</alternative1>
+			<alternative2>Michelle Trunk</alternative2>
+			<alternative3>Catherine of Aragon</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Catherine of Aragon</answer>
+		</question>
+		
+		<question>
+			<asking>In which decade did the potato famine strike Ireland?</asking>
+			<alternative1>1840s</alternative1>
+			<alternative2>1850s</alternative2>
+			<alternative3>1880s</alternative3>
+			<alternative4>1890s</alternative4>
+			<answer>1840s</answer>
+		</question>
+		
+		<question>
+			<asking>Who led the Scottish army to victory over the English at the battle of Bannockburn in 1314?</asking>
+			<alternative1>Sillas Thomaz</alternative1>
+			<alternative2>Edward Salles</alternative2>
+			<alternative3>Wladmir Boris</alternative3>
+			<alternative4>Robert the Bruce</alternative4>
+			<answer>Robert the Bruce</answer>
+		</question>
+		
+		<question>
+			<asking>What were the four humours that the ancient Greeks believed made up the body and determined illness?</asking>
+			<alternative1>Blood, platelets, red bile, blue bile</alternative1>
+			<alternative2>Blood, phlegm, black bile, yellow bile</alternative2>
+			<alternative3>Blood, skin, pus, black bile</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>Blood, phlegm, black bile, yellow bile</answer>
+		</question>
+		
+		<question>
+			<asking>Who sent the Spanish Armada to England in 1588?</asking>
+			<alternative1>Philip II of Spain</alternative1>
+			<alternative2>George III of Italy</alternative2>
+			<alternative3>Matheu I of Spain</alternative3>
+			<alternative4>Robson II of Denmark</alternative4>
+			<answer>Philip II of Spain</answer>
+		</question>
+		
+		<question>
+			<asking>Which English king built castles in the 13th century to help conquer Wales?</asking>
+			<alternative1>Joseph II</alternative1>
+			<alternative2>William II</alternative2>
+			<alternative3>Edward I</alternative3>
+			<alternative4>None of them</alternative4>
+			<answer>Edward I</answer>
+		</question>
+		
+		<question>
+			<asking>The Chinese Exclusion Act was signed into law by which US president in 1882?</asking>
+			<alternative1>Grover Cleveland</alternative1>
+			<alternative2>Benjamin Harrison</alternative2>
+			<alternative3>Chester A Arthur</alternative3>
+			<alternative4>Theodore Roosevelt</alternative4>
+			<answer>Chester A Arthur</answer>
+		</question>
+		
+		<question>
+			<asking>Which 19th-century Englishwoman became the first qualified medical doctor?</asking>
+			<alternative1>Emily Garrett</alternative1>
+			<alternative2>Elizabeth Garrett Anderson</alternative2>
+			<alternative3>Evelyn Thompson</alternative3>
+			<alternative4>Jennifer Klarkson</alternative4>
+			<answer>Elizabeth Garrett Anderson</answer>
+		</question>
+		
+		<question>
+			<asking>Which part of Berlin was enclosed by the wall?</asking>
+			<alternative1>The north</alternative1>
+			<alternative2>The south</alternative2>
+			<alternative3>The east</alternative3>
+			<alternative4>The west</alternative4>
+			<answer>The west</answer>
+		</question>
+		
+		<question>
+			<asking>Which prominent Kurd, born in Tikrit, united Muslim forces against the crusaders in the 12th century?</asking>
+			<alternative1>Habib</alternative1>
+			<alternative2>Youssef</alternative2>
+			<alternative3>Saladin</alternative3>
+			<alternative4>Hassan</alternative4>
+			<answer>Saladin</answer>
+		</question>
+		
+		<question>
+			<asking>Which rebellious leader of the Catuvellauni tribe was caught and taken to Rome in AD 50, then pardoned by Emperor Claudius?</asking>
+			<alternative1>Caractacus</alternative1>
+			<alternative2>Isaac</alternative2>
+			<alternative3>Thomas</alternative3>
+			<alternative4>None of them</alternative4>
+			<answer>Caractacus</answer>
+		</question>
+		
+		<question>
+			<asking>Which American president was in power during the 'Black Thursday' Wall Street crash?</asking>
+			<alternative1>Calvin Coolidge</alternative1>
+			<alternative2>Herbert Hoover</alternative2>
+			<alternative3>Franklin D. Roosevelt</alternative3>
+			<alternative4>Harry S. Truman</alternative4>
+			<answer>Herbert Hoover</answer>
+		</question>
+		
+		<question>
+			<asking>At what famous French landmark was the document signed which set out the terms of ‘peace’ following the First World War?</asking>
+			<alternative1>The Palace of Marsellies</alternative1>
+			<alternative2>The Big Palace of Castrol</alternative2>
+			<alternative3>The Palace of Versailles</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>The Palace of Versailles</answer>
+		</question>
+		
+		<question>
+			<asking>Where were Charles I’s headquarters during the Civil War?</asking>
+			<alternative1>Oxford</alternative1>
+			<alternative2>Washington</alternative2>
+			<alternative3>New Jersey</alternative3>
+			<alternative4>California</alternative4>
+			<answer>Oxford</answer>
+		</question>
+		
+		<question>
+			<asking>Who assassinated Archduke Franz Ferdinand of Austria in 1914?</asking>
+			<alternative1>Gavrilo Princip</alternative1>
+			<alternative2>Alexander</alternative2>
+			<alternative3>Hannah</alternative3>
+			<alternative4>None of them</alternative4>
+			<answer>Gavrilo Princip</answer>
+		</question>
+		
+		<question>
+			<asking>Who was the last king of the Plantagenet line of monarchs?</asking>
+			<alternative1>Jamie II</alternative1>
+			<alternative2>Richard III</alternative2>
+			<alternative3>Thomas III</alternative3>
+			<alternative4>George IV</alternative4>
+			<answer>Richard III</answer>
+		</question>
+		
+		<question>
+			<asking>What was Eleanor Roosevelt’s maiden name?</asking>
+			<alternative1>Eleanor</alternative1>
+			<alternative2>Morgana</alternative2>
+			<alternative3>Michelle</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>None of the alternatives</answer>
+		</question>
+		
+		<question>
+			<asking>Who was the last tsar of Russia?</asking>
+			<alternative1>Nicholas II</alternative1>
+			<alternative2>Dimitri I</alternative2>
+			<alternative3>Mikhail II</alternative3>
+			<alternative4>Vladimir III</alternative4>
+			<answer>Nicholas II</answer>
+		</question>
+		
+		<question>
+			<asking>During 1963, in Washington DC, Martin Luther King Jr gave his famous ‘I have a dream’ speech on the steps of which famous landmark?</asking>
+			<alternative1>Jefferson Memorial</alternative1>
+			<alternative2>National Museum of Natural History</alternative2>
+			<alternative3>The Lincoln Memorial</alternative3>
+			<alternative4>None of the alternatives</alternative4>
+			<answer>The Lincoln Memorial</answer>
+		</question>
+		
+		<question>
+			<asking>Which monarch appointed Pitt the Younger to the office of prime minister in December 1783?</asking>
+			<alternative1>Jeffrey II</alternative1>
+			<alternative2>Robert I</alternative2>
+			<alternative3>Thomas III</alternative3>
+			<alternative4>George III</alternative4>
+			<answer>George III</answer>
+		</question>
+
+				
+	</root>
+
