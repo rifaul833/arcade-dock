@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+13:13:00	1388/1388	---MCZ	200	added ('OK')	text/html	etag:W/%229479c9bf6e52ec5f336f58fd221bc011%22	https://previews.customer.envatousercontent.com/files/376294010/index.html	/home/zion/websites/mage-girl-adventure/previews.customer.envatousercontent.com/files/376294010/index.html	(from )
+13:13:01	163/163	---M--	200	added ('OK')	text/plain	etag:%2201d8acbbd28d868c4bc62a0102c4fac5%22	https://previews.customer.envatousercontent.com/robots.txt		(from )
